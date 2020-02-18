@@ -1,7 +1,5 @@
-
 //recursive
 #include <bits/stdc++.h>
-
 using namespace std;
 int fib(int a,int n){
     if(n==0){

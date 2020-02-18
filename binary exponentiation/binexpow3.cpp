@@ -8,7 +8,7 @@ int fib(int a,int b){
          result*=a;
      } 
      a=a*a;
-     b/=2;
+     b>>=1;
   }
   return result;
 }

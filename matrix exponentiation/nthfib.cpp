@@ -6,7 +6,7 @@ p_int fib(int n){
     if(n==0){
         return mp(1,0);
     }
-    p_int t = fib(n/2);
+    auto t = fib(n/2);
     int x = t.first + t.second;
     int y = t.first;
     if(n%2){
@@ -18,7 +18,7 @@ p_int fib(int n){
 int main()
 {
     int n=8;
-    p_int t = fib(n-1);
+    auto t = fib(n-1);
     cout << t.first << endl;
     return 0;
 }
